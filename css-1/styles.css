@@ -1,0 +1,17 @@
+* {
+  background-color: salmon;
+}
+label {
+  color: skyblue;
+}
+input[type="text"],
+textarea {
+  border: 2px dotted green;
+}
+input[type="email"] {
+  background-color: blue;
+}
+input[type="submit"],
+input[type="reset"] {
+  color: green;
+}
