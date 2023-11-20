@@ -1,0 +1,17 @@
+.container {
+  width: 700px;
+  height: 100px;
+  background-color: rgb(213, 213, 27);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+img {
+  padding-top: 10px;
+  padding-left: 25px;
+  height: 50px;
+  width: 50px;
+}
+.container div {
+  padding-right: 5px;
+}
