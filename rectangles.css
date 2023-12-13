@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  display: flex;
+
+  gap: 5px;
+}
+.container-1 {
+  display: flex;
+
+  flex-direction: column;
+  gap: 5px;
+}
+
+.container-2 {
+  display: flex;
+  gap: 5px;
+}
+.aqua,
+.yellow,
+.blue,
+.green,
+.red {
+  width: 100px;
+  height: 100px;
+}
+.red {
+  background-color: red;
+
+  width: 200px;
+  height: 200px;
+}
+
+.aqua {
+  background-color: aqua;
+}
+.yellow {
+  background-color: yellow;
+}
+.blue {
+  background-color: blue;
+  height: 205px;
+  width: 95px;
+}
+.green {
+  background-color: green;
+  height: 410px;
+}
+.container-2-1 {
+  display: flex;
+  row-gap: 5px;
+  flex-direction: column;
+}
