@@ -1,0 +1,30 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  display: flex;
+  height: 900px;
+  width: 900px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-direction: row;
+}
+.card {
+  height: 350px;
+  width: 400px;
+  text-align: center;
+  background-color: rgb(237, 233, 233);
+}
+img {
+  height: 200px;
+  width: 200px;
+}
+h2,
+h3 {
+  text-align: center;
+}
+button {
+  opacity: 0.5;
+}
