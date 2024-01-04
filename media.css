@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.container2 {
+  display: flex;
+}
+.header {
+  background-color: brown;
+}
+.aside1 {
+  background-color: yellow;
+}
+.aside2 {
+  background-color: cyan;
+}
+.center {
+  background-color: pink;
+}
+.footer {
+  background-color: lightgreen;
+}
+@media (max-width: 720px) {
+  .container2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
